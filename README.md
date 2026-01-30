@@ -18,21 +18,13 @@ It allows users to **add, view, and delete passwords** directly from the termina
   - GCC 9+
   - Clang 10+
   - MSVC 2019+
-- (Optional) CMake 3.15+
 
 ## Installation
 
-### Build with CMake
-
+Compile with a C++ compiler such as clang++:
 ```bash
-git clone https://github.com/amirsamh/passman.git
-cd passman
-mkdir build && cd build
-cmake ..
-cmake --build .
+clang++ -o passman main.cpp manager.cpp
 ```
-
-Or compile with any other C++ compiler.
 
 ## Project structure
 ```text
